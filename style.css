@@ -1,0 +1,85 @@
+body {  
+    margin: 0;
+    background-color: #1e1e1e;
+    color: #dadada;
+    font-family: 'Helvetica', 'Arial', 'sans-serif';
+}
+
+div.side-navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    height: 100%;
+    width: 30%; /* Reserve 30% of the width for the navbar */
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    border-right: 1px solid #333131;
+}
+
+div.side-navbar div.navs-buttons {
+
+    padding-left: 20px;
+    margin-top: 50px;
+    text-align: left;
+    width: 300px;
+}
+
+div.side-navbar div.navs-buttons h1 {
+    margin: 0;
+    margin-bottom: 50px; 
+}
+
+div.side-navbar div.navs-buttons ul {
+    margin: 0; 
+    padding: 0; 
+}
+
+div.side-navbar div.navs-buttons ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding-left: 0;
+}
+
+div.side-navbar div.navs-buttons ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #dadada;
+}
+
+div.side-navbar div.navs-buttons ul li a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: #b9b6b6;
+}
+
+div.content {
+    margin-top: 10px;
+    margin-left: 31%; /* Offset the content by the width of the navbar */
+    padding: 20px; /* Optional: Add padding to give some spacing inside the content */
+}
+
+a {
+
+    text-decoration: underline;
+    color: #985daa
+
+}
+
+a:hover {
+
+    color: #b57fc5
+
+}
+
+div.content div.details {
+
+    width: 50%
+
+}
+
+div.row-seperator {
+
+    border-top: 1px solid #333131;
+
+}
